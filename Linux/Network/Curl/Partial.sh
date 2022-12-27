@@ -1,0 +1,1 @@
+curl domain/request-uri 
