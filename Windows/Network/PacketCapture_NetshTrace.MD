@@ -1,10 +1,10 @@
 ## The short version:
 
-1. Open an elevated command prompt and run: "netsh trace start persistent=yes capture=yes tracefile=c:\temp\nettrace-boot.etl" (make sure you have a \temp directory or choose another location).
+1. Open an elevated command prompt and run: "**netsh trace start persistent=yes capture=yes tracefile=c:\temp\nettrace-boot.etl**" (make sure you have a \temp directory or choose another location).
 2. Reproduce the issue or do a reboot if you are tracing a slow boot scenario.
 3. Open an elevated command prompt and run: "netsh trace stop"
 
-Your trace will be stored in c:\temp\nettrace-boot.etl **or where ever you saved it. You can view the trace on another machine using netmon.
+Your trace will be stored in c:\temp\nettrace-boot.etl or where ever you saved it. You can view the trace on another machine using netmon.
 
  - - - - 
 
@@ -12,7 +12,7 @@ Your trace will be stored in c:\temp\nettrace-boot.etl **or where ever you saved
 
 I will do this trace for a slow boot scenario - it works fine for non reboot scenarios too, just reproduce the issue and then stop the trace.
 
-1. Open an elevated command prompt and run: "netsh trace start persistent=yes capture=yes tracefile=c:\temp\nettrace-boot.etl" (make sure you have a \temp directory or choose another location).
+1. Open an elevated command prompt and run: "**netsh trace start persistent=yes capture=yes tracefile=c:\temp\nettrace-boot.etl**" (make sure you have a \temp directory or choose another location).
 2. Reboot the client machine.
 3. Log on and stop the trace using: "netsh trace stop" (from an elevated prompt).
  
