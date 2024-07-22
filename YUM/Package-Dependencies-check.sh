@@ -29,3 +29,14 @@ rpm -q system-release --qf "%{VERSION}\n"
 rpm -ql <packagename> 
 
 rpm -qlp <rpmfilename>  # need to test
+
+
+repoquery --whatprovides /*zip.so
+
+yum info packagename
+dnf info packagename
+
+yum list installed packagename
+
+du -chs /var
+df -h
