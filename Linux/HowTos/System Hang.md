@@ -1,5 +1,6 @@
 ## Commands
-1. Journal Commands
+<pre>
+  1. Journal Commands
    * journalctl -u systemd-udevd.service
   
 2. Last Commands
@@ -13,8 +14,15 @@
    * CPU
    * Disk
   
-4. /var/log review
+4. Logs
+   
+   /var/log review
    * grep -i soft /var/log/messages
-   * grep -i 
-6. 
+   * grep -i "Aug" /var/log/yum.log
+6. Yum
+  
+  
 7. 
+8. 
+
+</pre>
